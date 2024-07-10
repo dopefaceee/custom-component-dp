@@ -9,17 +9,15 @@
     "baseUrl": ".",
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata":true,
+    "emitDecoratorMetadata": true,
     "esModuleInterop": true,
     "resolveJsonModule": true
   },
-  "files": [
-    "node_modules/miniprogram-api-typings/index.d.ts"
-  ],
+  "files": ["node_modules/miniprogram-api-typings/index.d.ts"],
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "src/button-mp/**/*.ts",
+    "src/button-mp/button-mp.js"
   ],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }

@@ -1,21 +1,20 @@
 Component({
-    properties: {
-      content: {
-        type: String,
-        value: ''
-      },
-      visible: {
-        type: Boolean,
-        value: false
-      }
+  properties: {
+    content: {
+      type: String,
+      value: '',
     },
-    data: {},
-    methods: {
-      showTooltip() {
-        this.setData({ visible: true });
-      },
-      hideTooltip() {
-        this.setData({ visible: false });
-      }
-    }
-  });
+    visible: {
+      type: Boolean,
+      value: false,
+    },
+  },
+  methods: {
+    showTooltip() {
+      this.setData({visible: true})
+    },
+    hideTooltip() {
+      this.setData({visible: false})
+    },
+  },
+})
