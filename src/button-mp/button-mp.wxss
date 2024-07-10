@@ -1,0 +1,21 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Darken layer with 50% opacity */
+    z-index: 999; /* Ensure it is behind the tooltip */
+  }
+  
+  .tooltip-container {
+      position: absolute;
+      background-color: rgba(51, 51, 51, 0.8); /* RGBA value for opacity */
+      color: #fff;
+      padding: 8px;
+      border-radius: 4px;
+      z-index: 1000;
+    }
+    .tooltip-content {
+      font-size: 14px;
+    }
