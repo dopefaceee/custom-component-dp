@@ -16,8 +16,6 @@
   "files": ["node_modules/miniprogram-api-typings/index.d.ts"],
   "include": [
     "src/**/*.ts",
-    "src/button-mp/**/*.ts",
-    "src/button-mp/button-mp.js"
   ],
   "exclude": ["node_modules"]
 }
